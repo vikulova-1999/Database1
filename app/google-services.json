@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "654789179250",
+    "firebase_url": "https://firstdatafirebase-default-rtdb.firebaseio.com",
+    "project_id": "firstdatafirebase",
+    "storage_bucket": "firstdatafirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654789179250:android:f3bb05e530bc251ae3cfeb",
+        "android_client_info": {
+          "package_name": "com.example.database1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654789179250-8vnvfmcf6t450fv29jrksnu21rpg8bda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3hIgoqivicnuvXAKZ1x3rcCHXlaNedLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654789179250-8vnvfmcf6t450fv29jrksnu21rpg8bda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

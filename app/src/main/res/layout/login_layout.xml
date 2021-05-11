@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Exit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="256dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Введите логин"
+        android:inputType="textEmailAddress"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="253dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
+
+    <Button
+        android:id="@+id/bSignUp"
+        android:layout_width="253dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickSignUp"
+        android:text="Зарегистрироваться"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="256dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickSignIn"
+        android:text="Войти"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSignUp"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="296dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="168dp"
+        android:text="TextView"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="onClickStart"
+        android:text="Начать"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserEmail" />
+
+    <Button
+        android:id="@+id/bSignOut"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickSignOut"
+        android:text="Выход"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/bStart"
+        app:layout_constraintStart_toStartOf="@+id/bStart"
+        app:layout_constraintTop_toBottomOf="@+id/bStart" />
+</androidx.constraintlayout.widget.ConstraintLayout>
